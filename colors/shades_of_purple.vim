@@ -26,6 +26,10 @@ if exists('g:shades_of_purple_bold')
   let Bold = "bold"
 endif
 
+" CUSTOM
+hi Conceal guifg=#FF9D00 ctermfg=214 gui=NONE cterm=NONE
+" END CUSTOM
+
 let g:shades_of_purple_bold = get(g:, 'shades_of_purple_bold', 0)
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1E1E3F ctermbg=234 gui=NONE cterm=NONE
 hi Cursor guifg=NONE ctermfg=NONE guibg=#FAD000 ctermbg=220 gui=NONE cterm=NONE
