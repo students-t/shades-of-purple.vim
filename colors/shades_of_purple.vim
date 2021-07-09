@@ -27,7 +27,7 @@ if exists('g:shades_of_purple_bold')
 endif
 
 " CUSTOM
-hi Conceal guifg=#FF9D00 ctermfg=214 gui=NONE cterm=NONE
+hi Conceal guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 " END CUSTOM
 
 let g:shades_of_purple_bold = get(g:, 'shades_of_purple_bold', 0)
